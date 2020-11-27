@@ -1202,13 +1202,19 @@ img {
         font-size: 20px;
     }
 
+    #home #last-h1 {
+        margin-bottom: 7px;
+    }
+
     #home p {
-        font-size: 11px;
+        font-size  : 11px;
+        line-height: 12px;
     }
 
     #home .hire-me-button {
-        font-size: 12px;
-        padding  : 5px;
+        font-size : 12px;
+        padding   : 5px;
+        margin-top: 7px;
     }
 }
 
