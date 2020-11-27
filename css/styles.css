@@ -451,7 +451,7 @@ img {
 }
 
 #projects .project-item p {
-    font-size  : 15px;
+    font-size  : 16px;
     font-weight: 320;
     line-height: 22px;
     margin     : 10px 0;
@@ -462,12 +462,18 @@ img {
     color      : var(--primary-color);
     font-weight: bold;
     font-size  : 17px;
-    margin     : 0 40px 0 0;
+    margin     : 0 25px 0 0;
     transition : transform 1s;
 }
 
 #source-code-a:hover {
     transform: translateX(10px);
+}
+
+.demo-video {
+    display        : flex;
+    flex-direction : row;
+    justify-content: left;
 }
 
 #projects .project-item .project-image {
@@ -540,6 +546,7 @@ img {
 #experience .experience-top ul {
     list-style-type: square;
     padding        : 5px 20px 0 20px;
+    font-size      : 16px;
 }
 
 /* End Experience Section */
@@ -760,6 +767,10 @@ img {
         text-align     : center;
     }
 
+    .demo-video {
+        justify-content: center;
+    }
+
     #projects .project-top p {
         text-align   : justify;
         padding-left : 5%;
@@ -970,6 +981,10 @@ img {
         margin         : 25px 0 20px 0;
     }
 
+    .demo-video {
+        justify-content: left;
+    }
+
     #projects .project-descript {
         width          : 50%;
         display        : flex;
@@ -982,11 +997,11 @@ img {
     #projects .project-descript p {
         margin-left : 0;
         width       : 90%;
-        padding-left: 6%;
+        padding-left: 5%;
     }
 
     #source-code-a {
-        padding-left: 6%;
+        padding-left: 5%;
     }
 
     #projects .project-top p {
@@ -1127,6 +1142,11 @@ img {
         margin         : 25px 0 20px 0;
     }
 
+    .demo-video {
+        width       : 60%;
+        padding-left: 1%;
+    }
+
     #projects .project-descript {
         width          : 55%;
         display        : flex;
@@ -1140,12 +1160,9 @@ img {
         padding-left: 0px;
         margin-left : 0;
         width       : 92%;
-        padding-left: 5%;
+        padding-left: 4%;
     }
 
-    #source-code-a {
-        padding-left: 5%;
-    }
 
     #projects .project-top p {
         text-align  : justify;
@@ -1174,14 +1191,7 @@ img {
         padding-left: 0px;
         margin-left : 0;
         width       : 92%;
-        padding-left: 5%;
-    }
-
-    #projects .project-top p {
-        text-align  : justify;
-        margin-top  : 40px;
-        padding-left: 0;
-        width       : 50%;
+        padding-left: 4%;
     }
 
     #contact .contact-bottom a {
