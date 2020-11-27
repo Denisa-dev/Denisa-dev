@@ -504,9 +504,6 @@ img {
 
 /* Experience Section */
 
-#experience {
-    height: 50vh;
-}
 
 #experience .work {
     display        : flex;
@@ -516,7 +513,7 @@ img {
     align-items    : center;
     max-width      : 1500px;
     margin         : 0 auto;
-    padding        : 70px 0px 0 25px;
+    padding        : 70px 0px 20px 25px;
 }
 
 #experience .work h1 {
@@ -1196,6 +1193,22 @@ img {
 
     #contact .contact-bottom a {
         margin: 10px 25px;
+    }
+}
+
+@media screen and (orientation:landscape) and (min-device-width: 319px) and (max-device-width: 450px) {
+
+    #home h1 {
+        font-size: 20px;
+    }
+
+    #home p {
+        font-size: 11px;
+    }
+
+    #home .hire-me-button {
+        font-size: 12px;
+        padding  : 5px;
     }
 }
 
