@@ -328,7 +328,7 @@ img {
     justify-content: center;
     max-width      : 1500px;
     margin         : 0 auto;
-    padding        : 35px 25px 0 25px;
+    padding        : 70px 25px 0 25px;
 }
 
 #about .about p {
@@ -427,7 +427,7 @@ img {
 
 #projects .project-top p {
     font-size  : 17px;
-    margin     : 5px 0 0 0;
+    margin     : 25px 0 0 0;
     line-height: 25px;
     font-weight: 300;
     text-align : justify;
@@ -879,21 +879,21 @@ img {
         background: rgb(191, 200, 181);
     }
 
+    #about .about {
+        padding-top: 50px;
+    }
+
     #about .about #wrapper-div {
         display        : flex;
         position       : relative;
         flex-direction : row;
         justify-content: center;
         align-items    : center;
-        margin-top     : 20px;
-    }
-
-    #about .about .about-top h1 {
-        margin-top: -80px;
+        margin-top     : 25px;
     }
 
     #about-p-resume {
-        width       : 45%;
+        width       : 40%;
         text-align  : center;
         margin-left : 0%;
         margin-right: 10%;
@@ -913,20 +913,12 @@ img {
 }
 
 /* Large devices (laptops/desktops, 920px and up) */
-/*@media only screen and (min-width: 920px) {
-
-    #about .about #wrapper-div {
-        margin-top: -10px;
-    }
-
-    #about .about .about-top h1 {
-        margin-top: -100px;
-    }
+@media only screen and (min-width: 920px) {
 
     #about-p-resume {
-        width: 40%;
+        width: 37%;
     }
-}*/
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -940,14 +932,10 @@ img {
         flex-direction : row;
         justify-content: center;
         align-items    : center;
-        margin-top     : 10px;
     }
 
     #about-p-resume {
-        width       : 38%;
-        text-align  : center;
-        margin-left : 0%;
-        margin-right: 10%;
+        width: 35%;
     }
 
     #about-p-resume p {
@@ -1028,13 +1016,9 @@ img {
     }
 }
 
-@media only screen and (min-width: 1180px) {
-    #about .about .about-top h1 {
-        margin-top: -90px;
-    }
-
+@media only screen and (min-width: 1000px) and (max-width: 1199px) {
     #about-p-resume {
-        width: 35%;
+        width: 33%;
     }
 }
 
@@ -1115,24 +1099,20 @@ img {
         width: 79%;
     }
 
-    #about .about #wrapper-div {
+    /* #about .about #wrapper-div {
         margin-top: 10px;
-    }
-
-    #about .about .about-top h1 {
-        margin-top: -80px;
-    }
+    }*/
 
     #about-p-resume {
-        width       : 32%;
+        width       : 30%;
         text-align  : center;
         margin-left : 0%;
         margin-right: 8%;
     }
 
-    .break-section-top {
+    /* .break-section-top {
         height: 20px;
-    }
+    }*/
 
     #about-p-resume p {
         font-size: 30px;
@@ -1197,23 +1177,30 @@ img {
     }
 }
 
+@media only screen and (min-width: 1250px) and (max-width: 1399px) {
+    #about-p-resume {
+        width: 29%;
+    }
+}
+
+
 @media only screen and (min-width: 1400px) {
 
     #header .nav-list ul {
         padding-right: initial;
     }
 
-    #about .about .about-top h1 {
-        margin-top: -80px;
+    #about .about {
+        padding-top: 5px;
     }
 
     #about-p-resume {
-        width: 27%;
+        width: 25%;
     }
 
-    .break-section-top {
+    /*.break-section-top {
         display: none;
-    }
+    }*/
 
     #projects .project {
         padding: 90px 25px 0 25px;
@@ -1236,17 +1223,13 @@ img {
     }
 }
 
-@media only screen and (min-width: 1350px) {
+@media only screen and (min-width: 1420px) {
     #about .about {
-        padding: 0px 25px 0 25px;
+        padding-top: 0px;
     }
 
-    #about .about .about-top h1 {
-        margin-top: 0px;
-    }
-
-    #about .about #wrapper-div {
-        margin-top: 35px;
+    #about-p-resume {
+        width: 26%;
     }
 }
 
