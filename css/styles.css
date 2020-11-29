@@ -156,7 +156,7 @@ img {
     z-index        : 100;
     cursor         : pointer;
     transform      : scale(.8);
-    margin-right   : 4px;
+    margin-right   : 2.5px;
 }
 
 #header .logo-bar:after {
@@ -426,11 +426,12 @@ img {
 }
 
 #projects .project-top p {
-    font-size  : 17px;
-    margin     : 25px 0 0 0;
-    line-height: 25px;
-    font-weight: 300;
-    text-align : justify;
+    font-size    : 17px;
+    margin       : 25px 0 0 0;
+    line-height  : 25px;
+    font-weight  : 300;
+    text-align   : justify;
+    margin-bottom: 10px;
 }
 
 #projects .project-bottom {
@@ -463,7 +464,7 @@ img {
     font-size  : 16px;
     font-weight: 320;
     line-height: 22px;
-    margin     : 10px 0;
+    margin     : 10px 0 15px 0;
 }
 
 #source-code-a {
@@ -731,7 +732,7 @@ img {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     #header .logo-bar {
-        margin-right: 12px;
+        margin-right: 10px;
     }
 
     #home .home div {
