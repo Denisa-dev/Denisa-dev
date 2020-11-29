@@ -346,6 +346,15 @@ img {
     align-items    : center;
 }
 
+#about-p-resume p {
+    text-indent: 8%;
+}
+
+#about-p-resume p span {
+    display    : inline-block;
+    text-indent: 8%;
+}
+
 
 #about .about .profile-pic {
     max-width    : 305px;
@@ -847,7 +856,7 @@ img {
 /* Large devices (laptops/desktops, 850px and up) */
 @media only screen and (min-width: 850px) {
     #header .logo-bar {
-        margin-right: 35px;
+        margin-right: 25px;
     }
 
     #home .home div {
@@ -880,7 +889,7 @@ img {
     }
 
     #about .about .about-top h1 {
-        margin-top: -70px;
+        margin-top: -80px;
     }
 
     #about-p-resume {
@@ -922,7 +931,7 @@ img {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     #header .logo-bar {
-        margin-right: 50px;
+        margin-right: 25px;
     }
 
     #about .about #wrapper-div {
@@ -1019,6 +1028,16 @@ img {
     }
 }
 
+@media only screen and (min-width: 1180px) {
+    #about .about .about-top h1 {
+        margin-top: -90px;
+    }
+
+    #about-p-resume {
+        width: 35%;
+    }
+}
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
@@ -1028,8 +1047,9 @@ img {
     }
 
     #home .hire-me-button {
-        font-size: 20px;
-        padding  : 10px 30px;
+        font-size     : 18px;
+        letter-spacing: 2.5px;
+        padding       : 10px 30px;
     }
 
     #home .home div {
@@ -1099,11 +1119,19 @@ img {
         margin-top: 10px;
     }
 
+    #about .about .about-top h1 {
+        margin-top: -80px;
+    }
+
     #about-p-resume {
         width       : 32%;
         text-align  : center;
         margin-left : 0%;
         margin-right: 8%;
+    }
+
+    .break-section-top {
+        height: 20px;
     }
 
     #about-p-resume p {
@@ -1175,8 +1203,20 @@ img {
         padding-right: initial;
     }
 
+    #about .about .about-top h1 {
+        margin-top: -80px;
+    }
+
     #about-p-resume {
-        width: 26%;
+        width: 27%;
+    }
+
+    .break-section-top {
+        display: none;
+    }
+
+    #projects .project {
+        padding: 90px 25px 0 25px;
     }
 
     #projects .project-item .project-image {
@@ -1196,25 +1236,50 @@ img {
     }
 }
 
-@media screen and (orientation:landscape) and (min-device-width: 319px) and (max-device-width: 450px) {
+@media only screen and (min-width: 1350px) {
+    #about .about {
+        padding: 0px 25px 0 25px;
+    }
+
+    #about .about .about-top h1 {
+        margin-top: 0px;
+    }
+
+    #about .about #wrapper-div {
+        margin-top: 35px;
+    }
+}
+
+@media only screen and (max-width: 750px) and (orientation: landscape) {
+    #header .header {
+        height: 55px;
+    }
+
+    #header .brand {
+        font-size: 15px;
+    }
+
+    #home .home div {
+        margin-top: 25px;
+    }
 
     #home h1 {
-        font-size: 20px;
+        font-size: 13px;
     }
 
     #home #last-h1 {
-        margin-bottom: 7px;
+        margin-bottom: 5px;
     }
 
     #home p {
-        font-size  : 11px;
-        line-height: 12px;
+        font-size  : 10px;
+        line-height: 13px;
     }
 
     #home .hire-me-button {
-        font-size : 12px;
+        font-size : 11px;
         padding   : 5px;
-        margin-top: 7px;
+        margin-top: 8px;
     }
 }
 
